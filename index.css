@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px #ff6f61;
+}
+.level-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #ff6f61;
+}
+.magic-box {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.game-area {
+    margin: 20px;
+}
+.input-area input {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.input-area button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.input-area button:hover {
+    background: #ff5349;
+}
+.message {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
